@@ -17,9 +17,9 @@ green3: '#6a6b3f'
 green4: '#464632'
 
 # too lazy to update variables named yellow
-yellow1: '#9fbfd9'
-yellow2: '#90b0d9'
-yellow3: '#90a1d9'
+yellow1: '#9fafd9'
+yellow2: '#9fb0d9'
+yellow3: '#9fa1d9'
 
 # whites
 highlighted: '#ffffff'

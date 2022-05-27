@@ -4,14 +4,14 @@
 " URL:https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2022/05/27 17:49
+" Last Change: 2022/05/27 18:04
 " ============================================================
 
 let g:airline#themes#tender#palette = {}
 
 let s:normal1 = [ "#335261", "#baeaff", 239, 153 ]
 let s:normal2 = [ "#2c2c2c", "#7eceee", 236, 117 ]
-let s:normal3 = [ "#baeaff", "#444444", 153, 238 ]
+let s:normal3 = [ "#baeaff", "#2c2c2c", 153, 236 ]
 let g:airline#themes#tender#palette.normal = airline#themes#generate_color_map(s:normal1, s:normal2, s:normal3)
 
 let s:insert1 = [ "#464632", "#c9d05c", 238, 185 ]
@@ -21,17 +21,17 @@ let g:airline#themes#tender#palette.insert = airline#themes#generate_color_map(s
 
 let s:replace1 = [ "#2c2c2c", "#f06c75", 236, 204 ]
 let s:replace2 = [ "#2c2c2c", "#f05c75", 236, 204 ]
-let s:replace3 = [ "#f06c75", "#444444", 204, 238 ]
+let s:replace3 = [ "#f06c75", "#2c2c2c", 204, 236 ]
 let g:airline#themes#tender#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
 let s:visual1 = [ "#2c2c2c", "#9fb0d9", 236, 146 ]
 let s:visual2 = [ "#2c2c2c", "#9fa1d9", 236, 146 ]
-let s:visual3 = [ "#9fb0d9", "#444444", 146, 238 ]
+let s:visual3 = [ "#9fb0d9", "#2c2c2c", 146, 236 ]
 let g:airline#themes#tender#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
 let s:inactive1 = [ "#bbbbbb", "#666666", 250, 242 ]
 let s:inactive2 = [ "#bbbbbb", "#666666", 250, 242 ]
-let s:inactive3 = [ "#bbbbbb", "#444444", 250, 238 ]
+let s:inactive3 = [ "#bbbbbb", "#2c2c2c", 250, 236 ]
 let g:airline#themes#tender#palette.inactive = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
 
 

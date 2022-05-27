@@ -4,7 +4,7 @@
 " URL: https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2022/05/27 17:49
+" Last Change: 2022/05/27 18:04
 " ===============================================================
 
 set background=dark
@@ -42,9 +42,9 @@ hi Folded guifg=#666666 ctermfg=242 guibg=#202020 ctermbg=234 gui=NONE cterm=NON
 hi FoldColumn guifg=#666666 ctermfg=242 guibg=#202020 ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn guifg=#999999 ctermfg=246 guibg=#2c2c2c ctermbg=236 gui=NONE cterm=NONE
 hi IncSearch guifg=#ffffff ctermfg=15 guibg=#000000 ctermbg=0 gui=Bold,reverse cterm=Bold,reverse
-hi LineNr guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LineNr guifg=#2c2c2c ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#f06c75 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi NonText guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NonText guifg=#2c2c2c ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#eeeeee ctermfg=255 guibg=#2c2c2c ctermbg=236 gui=NONE cterm=NONE
 hi PMenu guifg=#dadada ctermfg=253 guibg=#335261 ctermbg=239 gui=NONE cterm=NONE
 hi PMenuSel guifg=#335261 ctermfg=239 guibg=#c9d05c ctermbg=185 gui=NONE cterm=NONE
@@ -52,15 +52,15 @@ hi PmenuSbar guifg=#335261 ctermfg=239 guibg=#335261 ctermbg=239 gui=NONE cterm=
 hi PmenuThumb guifg=#c9d05c ctermfg=185 guibg=#c9d05c ctermbg=185 gui=NONE cterm=NONE
 hi Question guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#ffffff ctermfg=15 guibg=NONE ctermbg=NONE gui=underline,Bold cterm=underline,Bold
-hi SpecialKey guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpecialKey guifg=#2c2c2c ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#f06c75 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellLocal guifg=#9fafd9 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellCap guifg=#9fb0d9 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellRare guifg=#7eceee ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#1d1d1d ctermfg=234 guibg=#666666 ctermbg=242 gui=Bold cterm=Bold
-hi StatusLineNC guifg=#999999 ctermfg=246 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
-hi TabLine guifg=#999999 ctermfg=246 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
-hi TabLineFill guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
+hi StatusLineNC guifg=#999999 ctermfg=246 guibg=#2c2c2c ctermbg=236 gui=NONE cterm=NONE
+hi TabLine guifg=#999999 ctermfg=246 guibg=#2c2c2c ctermbg=236 gui=NONE cterm=NONE
+hi TabLineFill guifg=NONE ctermfg=NONE guibg=#2c2c2c ctermbg=236 gui=NONE cterm=NONE
 hi TabLineSel guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Title guifg=#baeaff ctermfg=153 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Visual guifg=NONE ctermfg=NONE guibg=#293b44 ctermbg=237 gui=Bold cterm=Bold

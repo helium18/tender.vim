@@ -4,7 +4,7 @@
 " URL:https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2022/05/27 17:21
+" Last Change: 2022/05/27 17:37
 " ============================================================
 
 let g:airline#themes#tenderplus#palette = {}
@@ -24,9 +24,9 @@ let s:replace2 = [ "#2c2c2c", "#f05c75", 236, 204 ]
 let s:replace3 = [ "#79313c", "#f06c75", 237, 204 ]
 let g:airline#themes#tenderplus#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
-let s:visual1 = [ "#9091d9", "#9061d9", 104, 98 ]
-let s:visual2 = [ "#2c2c2c", "#9081d9", 236, 104 ]
-let s:visual3 = [ "#9061d9", "#9091d9", 98, 104 ]
+let s:visual1 = [ "#909fd9", "#9091d9", 110, 104 ]
+let s:visual2 = [ "#2c2c2c", "#9090d9", 236, 104 ]
+let s:visual3 = [ "#9091d9", "#909fd9", 104, 110 ]
 let g:airline#themes#tenderplus#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
 let s:inactive1 = [ "#bbbbbb", "#444444", 250, 238 ]

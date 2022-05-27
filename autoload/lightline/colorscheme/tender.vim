@@ -4,7 +4,7 @@
 " URL: https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2022/05/27 17:37
+" Last Change: 2022/05/27 17:49
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
@@ -13,7 +13,7 @@ let s:p.normal.left = [[["#335261", 239], ["#baeaff", 153]], [["#2c2c2c", 236], 
 let s:p.normal.middle = [[["#baeaff", 153], ["#44778d", 66]]]
 let s:p.normal.right = [[["#335261", 239], ["#baeaff", 153]], [["#2c2c2c", 236], ["#7eceee", 117]]]
 let s:p.normal.error = [[["#2c2c2c", 236], ["#f06c75", 204]]]
-let s:p.normal.warning = [[["#2c2c2c", 236], ["#9090d9", 104]]]
+let s:p.normal.warning = [[["#2c2c2c", 236], ["#9fb0d9", 146]]]
 
 let s:p.inactive.left = [[["#bbbbbb", 250], ["#666666", 242]], [["#bbbbbb", 250], ["#666666", 242]]]
 let s:p.inactive.middle = [[["#bbbbbb", 250], ["#444444", 238]]]
@@ -27,9 +27,9 @@ let s:p.replace.left = [[["#79313c", 237], ["#f06c75", 204]], [["#2c2c2c", 236],
 let s:p.replace.middle = [[["#f06c75", 204], ["#79313c", 237]]]
 let s:p.replace.right = [[["#79313c", 237], ["#f06c75", 204]], [["#2c2c2c", 236], ["#f05c75", 204]]]
 
-let s:p.visual.left = [[["#9091d9", 104], ["#909fd9", 110]], [["#2c2c2c", 236], ["#9090d9", 104]]]
-let s:p.visual.middle = [[["#909fd9", 110], ["#9091d9", 104]]]
-let s:p.visual.right = [[["#9091d9", 104], ["#909fd9", 110]], [["#2c2c2c", 236], ["#9090d9", 104]]]
+let s:p.visual.left = [[["#9fa1d9", 146], ["#9fafd9", 146]], [["#2c2c2c", 236], ["#9fb0d9", 146]]]
+let s:p.visual.middle = [[["#9fafd9", 146], ["#9fa1d9", 146]]]
+let s:p.visual.right = [[["#9fa1d9", 146], ["#9fafd9", 146]], [["#2c2c2c", 236], ["#9fb0d9", 146]]]
 
 let s:p.tabline.left = [[["#bbbbbb", 250], ["#666666", 242]]]
 let s:p.tabline.tabsel = [[["#2c2c2c", 236], ["#bbbbbb", 250]]]

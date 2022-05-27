@@ -4,35 +4,35 @@
 " URL: https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2022/05/27 17:02
+" Last Change: 2022/05/27 17:13
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
 
-let s:p.normal.left = [[["#baeaff", 153], ["#44778d", 66]], [["#282828", 235], ["#7eceee", 117]]]
+let s:p.normal.left = [[["#baeaff", 153], ["#44778d", 66]], [["#2c2c2c", 236], ["#7eceee", 117]]]
 let s:p.normal.middle = [[["#44778d", 66], ["#baeaff", 153]]]
-let s:p.normal.right = [[["#baeaff", 153], ["#44778d", 66]], [["#282828", 235], ["#7eceee", 117]]]
-let s:p.normal.error = [[["#282828", 235], ["#f06c75", 204]]]
-let s:p.normal.warning = [[["#282828", 235], ["#ffc24b", 215]]]
+let s:p.normal.right = [[["#baeaff", 153], ["#44778d", 66]], [["#2c2c2c", 236], ["#7eceee", 117]]]
+let s:p.normal.error = [[["#2c2c2c", 236], ["#f06c75", 204]]]
+let s:p.normal.warning = [[["#2c2c2c", 236], ["#ffc24b", 215]]]
 
 let s:p.inactive.left = [[["#bbbbbb", 250], ["#444444", 238]], [["#bbbbbb", 250], ["#444444", 238]]]
 let s:p.inactive.middle = [[["#bbbbbb", 250], ["#666666", 242]]]
 let s:p.inactive.right = [[["#bbbbbb", 250], ["#444444", 238]], [["#bbbbbb", 250], ["#444444", 238]]]
 
-let s:p.insert.left = [[["#c9d05c", 185], ["#6a6b3f", 242]], [["#282828", 235], ["#c9d16d", 185]]]
+let s:p.insert.left = [[["#c9d05c", 185], ["#6a6b3f", 242]], [["#2c2c2c", 236], ["#c9d16d", 185]]]
 let s:p.insert.middle = [[["#6a6b3f", 242], ["#c9d05c", 185]]]
-let s:p.insert.right = [[["#c9d05c", 185], ["#6a6b3f", 242]], [["#282828", 235], ["#c9d16d", 185]]]
+let s:p.insert.right = [[["#c9d05c", 185], ["#6a6b3f", 242]], [["#2c2c2c", 236], ["#c9d16d", 185]]]
 
-let s:p.replace.left = [[["#f06c75", 204], ["#79313c", 237]], [["#282828", 235], ["#f05c75", 204]]]
-let s:p.replace.middle = [[["#282828", 235], ["#f06c75", 204]]]
-let s:p.replace.right = [[["#f06c75", 204], ["#79313c", 237]], [["#282828", 235], ["#f05c75", 204]]]
+let s:p.replace.left = [[["#f06c75", 204], ["#79313c", 237]], [["#2c2c2c", 236], ["#f05c75", 204]]]
+let s:p.replace.middle = [[["#2c2c2c", 236], ["#f06c75", 204]]]
+let s:p.replace.right = [[["#f06c75", 204], ["#79313c", 237]], [["#2c2c2c", 236], ["#f05c75", 204]]]
 
-let s:p.visual.left = [[["#ffd35c", 221], ["#715b2f", 58]], [["#282828", 235], ["#ffc24b", 215]]]
-let s:p.visual.middle = [[["#282828", 235], ["#ffd35c", 221]]]
-let s:p.visual.right = [[["#ffd35c", 221], ["#715b2f", 58]], [["#282828", 235], ["#ffc24b", 215]]]
+let s:p.visual.left = [[["#ffd35c", 221], ["#715b2f", 58]], [["#2c2c2c", 236], ["#ffc24b", 215]]]
+let s:p.visual.middle = [[["#2c2c2c", 236], ["#ffd35c", 221]]]
+let s:p.visual.right = [[["#ffd35c", 221], ["#715b2f", 58]], [["#2c2c2c", 236], ["#ffc24b", 215]]]
 
 let s:p.tabline.left = [[["#bbbbbb", 250], ["#666666", 242]]]
-let s:p.tabline.tabsel = [[["#282828", 235], ["#bbbbbb", 250]]]
+let s:p.tabline.tabsel = [[["#2c2c2c", 236], ["#bbbbbb", 250]]]
 let s:p.tabline.middle = [[["#666666", 242], ["#444444", 238]]]
 let s:p.tabline.right = [[["#bbbbbb", 250], ["#666666", 242]]]
 

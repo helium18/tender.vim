@@ -29,8 +29,8 @@ pearl: '#dadada'
 # greys
 gandalf: '#5c5c5c'
 grey1: '#999999'
-grey2: '#666666'
-grey3: '#2c2c2c'
+grey2: '#2c2c2c'
+grey3: '#3b3b3b'
 
 shadow: '#323232'
 bg: '#2c2c2c'

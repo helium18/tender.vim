@@ -4,7 +4,7 @@
 " URL: https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2022/05/27 18:04
+" Last Change: 2022/05/28 12:11
 " ===============================================================
 
 set background=dark

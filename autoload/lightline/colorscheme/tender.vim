@@ -4,7 +4,7 @@
 " URL: https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2022/05/28 12:23
+" Last Change: 2022/05/28 12:26
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
@@ -16,7 +16,7 @@ let s:p.normal.error = [[["#2c2c2c", 236], ["#f06c75", 204]]]
 let s:p.normal.warning = [[["#2c2c2c", 236], ["#9fb0d9", 146]]]
 
 let s:p.inactive.left = [[["#5c5c5c", 59], ["#2c2c2c", 236]], [["#5c5c5c", 59], ["#2c2c2c", 236]]]
-let s:p.inactive.middle = [[["#5c5c5c", 59], ["#3b3b3b", 237]]]
+let s:p.inactive.middle = [[["#5c5c5c", 59], ["#4c4c4c", 239]]]
 let s:p.inactive.right = [[["#5c5c5c", 59], ["#2c2c2c", 236]], [["#5c5c5c", 59], ["#2c2c2c", 236]]]
 
 let s:p.insert.left = [[["#464632", 238], ["#c9d05c", 185]], [["#2c2c2c", 236], ["#c9d16d", 185]]]
@@ -33,7 +33,7 @@ let s:p.visual.right = [[["#9fa1d9", 146], ["#9fafd9", 146]], [["#2c2c2c", 236],
 
 let s:p.tabline.left = [[["#5c5c5c", 59], ["#2c2c2c", 236]]]
 let s:p.tabline.tabsel = [[["#2c2c2c", 236], ["#5c5c5c", 59]]]
-let s:p.tabline.middle = [[["#2c2c2c", 236], ["#3b3b3b", 237]]]
+let s:p.tabline.middle = [[["#2c2c2c", 236], ["#4c4c4c", 239]]]
 let s:p.tabline.right = [[["#5c5c5c", 59], ["#2c2c2c", 236]]]
 
 let g:lightline#colorscheme#tender#palette = lightline#colorscheme#flatten(s:p)

@@ -4,7 +4,7 @@
 " URL:https://github/com/jacoborus/tender.vim
 " Author: Jacobo Tabernero http://jacoborus.codes
 " License: MIT
-" Last Change: 2022/05/28 12:23
+" Last Change: 2022/05/28 12:26
 " ============================================================
 
 let g:airline#themes#tender#palette = {}
@@ -21,17 +21,17 @@ let g:airline#themes#tender#palette.insert = airline#themes#generate_color_map(s
 
 let s:replace1 = [ "#2c2c2c", "#f06c75", 236, 204 ]
 let s:replace2 = [ "#2c2c2c", "#f05c75", 236, 204 ]
-let s:replace3 = [ "#f06c75", "#3b3b3b", 204, 237 ]
+let s:replace3 = [ "#f06c75", "#4c4c4c", 204, 239 ]
 let g:airline#themes#tender#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
 let s:visual1 = [ "#2c2c2c", "#9fb0d9", 236, 146 ]
 let s:visual2 = [ "#2c2c2c", "#9fa1d9", 236, 146 ]
-let s:visual3 = [ "#9fb0d9", "#3b3b3b", 146, 237 ]
+let s:visual3 = [ "#9fb0d9", "#4c4c4c", 146, 239 ]
 let g:airline#themes#tender#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
 let s:inactive1 = [ "#5c5c5c", "#2c2c2c", 59, 236 ]
 let s:inactive2 = [ "#5c5c5c", "#2c2c2c", 59, 236 ]
-let s:inactive3 = [ "#5c5c5c", "#3b3b3b", 59, 237 ]
+let s:inactive3 = [ "#5c5c5c", "#4c4c4c", 59, 239 ]
 let g:airline#themes#tender#palette.inactive = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
 
 

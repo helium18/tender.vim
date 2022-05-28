@@ -43,7 +43,7 @@ Visual: '- blue5 b'
 VisualNOS: '- blue5 b'
 WarningMsg: 'red1 -'
 WildMenu: 'bg green1 b'
-Comment: 'grey2'
+Comment: 'grey3'
 Constant: 'yellow2 -'
 String: 'yellow1 -' # Constant
 Character: 'yellow2 -' # Constant
